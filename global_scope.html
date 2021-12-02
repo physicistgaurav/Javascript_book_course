@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Global Scope</title>
+</head>
+<body>
+    <script type="text/javascript">
+        var userName="gaurav";
+        function modifyuserName(){
+            userName ="sanjog";
+        };
+        function showuserName(){
+            alert(userName);
+        };
+        alert(userName);
+        modifyuserName();
+        showuserName();
+
+    </script>
+    
+</body>
+</html>
